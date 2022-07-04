@@ -6,15 +6,18 @@ class Program
 {
     static void Main(string[] args)
     {
-        string cpf = "86288366757";
+        Console.WriteLine("Digite o cpf (Sem ponto ou traço): ");
+        string cpf = Console.ReadLine();
         ValidateCPF(cpf);
 
-        string cnpj = "51241758000152";
+        Console.WriteLine("Digite o cnpj (Sem ponto ou traço): ");
+        string cnpj = Console.ReadLine();
         ValidateCNPJ(cnpj);
 
-        string titulo = "041372570132";
+        Console.WriteLine("Digite o numero do titulo de eleitor (Sem ponto ou traço): ");
+        string titulo = Console.ReadLine();
         ValidateTitulo(titulo);
-
+        
         // Debug.WriteLine(new CPFFormatter().Format(cpfFormatado));
         // Debug.WriteLine(new CPFFormatter().Unformat(cpfFormatado);
 
