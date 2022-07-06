@@ -1,7 +1,11 @@
+using checkBank;
+using checkBank.Titular;
+
 namespace checkBank
 {
     public class contaCorrente
     {
+        public Cliente titular;
         public string conta;
         public int agencia;
         public string nome_agencia;

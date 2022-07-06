@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace checkBank
+namespace checkBank.Titular
 {
     public class Cliente
     {
         public string nome;
         public string cpf;
         public string profissao;
+
     }
 }
