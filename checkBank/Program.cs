@@ -2,17 +2,17 @@
 using checkBank;
 using checkBank.Titular;
 
-contaCorrente conta1 = new contaCorrente();
-conta1.conta = "1234-x";
-conta1.agencia = 2808;
+contaCorrente conta1 = new contaCorrente(235,"123456-x");
+conta1.Conta = "1234-x";
+conta1.Numero_agencia = 2808;
 conta1.nome_agencia = "Agencia Central";
-conta1.saldo = 100;
+conta1.Saldo = 85;
 
-contaCorrente conta2 = new contaCorrente();
-conta2.conta = "1235-x";
-conta2.agencia = 2808;
+contaCorrente conta2 = new contaCorrente(235,"123456-x");
+conta2.Conta = "1235-x";
+conta2.Numero_agencia = 2808;
 conta2.nome_agencia = "Agencia Central";
-conta2.saldo = 50;
+conta2.Saldo = 50;
 
 // Console.WriteLine("Titular: " + conta1.titular);
 // Console.WriteLine("Conta: " + conta1.conta);
@@ -41,13 +41,14 @@ Cliente cliente = new Cliente();
 cliente.nome = "Mateus";
 cliente.cpf = "56984984";
 
-contaCorrente conta3 = new contaCorrente();
-conta3.titular = cliente;
-conta3.conta = "6194984-x";
-conta3.agencia = 35;
+contaCorrente conta3 = new contaCorrente(35,"6194984-x");
+conta3.Titular = cliente;
+conta3.Conta = "6194984-x";
+conta3.Numero_agencia = 35;
 conta3.nome_agencia = "Agencia Central";
 
-Console.WriteLine(conta3.titular.nome);
+Console.WriteLine("Quantidades de contas criadas: " + contaCorrente.TotalDeContasCriadas);
+Console.WriteLine("Titular: " + conta3.Titular.nome);
 
 
 Console.ReadKey();
