@@ -1,0 +1,15 @@
+C:\Users\mateu\Documents\estudo\C-Sharp\checkBank_ADM\bin\Debug\net6.0\checkBank_ADM.exe
+C:\Users\mateu\Documents\estudo\C-Sharp\checkBank_ADM\bin\Debug\net6.0\checkBank_ADM.deps.json
+C:\Users\mateu\Documents\estudo\C-Sharp\checkBank_ADM\bin\Debug\net6.0\checkBank_ADM.runtimeconfig.json
+C:\Users\mateu\Documents\estudo\C-Sharp\checkBank_ADM\bin\Debug\net6.0\checkBank_ADM.dll
+C:\Users\mateu\Documents\estudo\C-Sharp\checkBank_ADM\bin\Debug\net6.0\checkBank_ADM.pdb
+C:\Users\mateu\Documents\estudo\C-Sharp\checkBank_ADM\obj\Debug\net6.0\checkBank_ADM.csproj.AssemblyReference.cache
+C:\Users\mateu\Documents\estudo\C-Sharp\checkBank_ADM\obj\Debug\net6.0\checkBank_ADM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\Documents\estudo\C-Sharp\checkBank_ADM\obj\Debug\net6.0\checkBank_ADM.AssemblyInfoInputs.cache
+C:\Users\mateu\Documents\estudo\C-Sharp\checkBank_ADM\obj\Debug\net6.0\checkBank_ADM.AssemblyInfo.cs
+C:\Users\mateu\Documents\estudo\C-Sharp\checkBank_ADM\obj\Debug\net6.0\checkBank_ADM.csproj.CoreCompileInputs.cache
+C:\Users\mateu\Documents\estudo\C-Sharp\checkBank_ADM\obj\Debug\net6.0\checkBank_ADM.dll
+C:\Users\mateu\Documents\estudo\C-Sharp\checkBank_ADM\obj\Debug\net6.0\refint\checkBank_ADM.dll
+C:\Users\mateu\Documents\estudo\C-Sharp\checkBank_ADM\obj\Debug\net6.0\checkBank_ADM.pdb
+C:\Users\mateu\Documents\estudo\C-Sharp\checkBank_ADM\obj\Debug\net6.0\checkBank_ADM.genruntimeconfig.cache
+C:\Users\mateu\Documents\estudo\C-Sharp\checkBank_ADM\obj\Debug\net6.0\ref\checkBank_ADM.dll
