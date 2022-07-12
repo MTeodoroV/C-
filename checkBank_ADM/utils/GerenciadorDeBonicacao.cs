@@ -16,10 +16,10 @@ namespace checkBank_ADM.Utils
             this.totalBonificacao += funcionario.getBonificacao();
         }
 
-        public void Registrar(Diretor diretor)
-        {
-            this.totalBonificacao += diretor.getBonificacao();
-        }
+        // public void Registrar(Diretor diretor)
+        // {
+        //     this.totalBonificacao += diretor.getBonificacao();
+        // }
 
         // Sobrecarga de métodos, é o mesmo método que vai receber parâmetros diferentes.
         public double getBonificacao()

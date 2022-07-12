@@ -6,15 +6,8 @@ using System.Threading.Tasks;
 
 namespace checkBank_ADM.Funcionarios
 {
-    public class Diretor
+    public class Diretor: Funcionario
     {
-
-        public string Nome { get; set; }
-
-        public string Cpf { get; set; }
-
-        public double Salario { get; set; }
-
         public double getBonificacao()
         {
             return Salario;
