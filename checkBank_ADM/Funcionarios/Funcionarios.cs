@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace checkBank_ADM.Funcionarios
 {
-    public class Funcionario
+    public abstract class Funcionario
     {
         // 0 - funcionario
         // 1 - diretor
@@ -15,13 +15,21 @@ namespace checkBank_ADM.Funcionarios
         //private int _tipo;
         public string Nome { get; set; }
 
-        public string Cpf { get; set; }
+        public string Cpf { get; private set; }
 
-        public double Salario { get; set; }
+        public double Salario { get; protected set; }
 
-        public double getBonificacao()
+
+        public static int totalDeFuncionarios { get; private set; }
+
+        public Funcionario(string cpf, double salario)
         {
-            return Salario * 0.1;
+            this.Cpf = cpf;
+            this.Salario = salario;
+            totalDeFuncionarios++;
         }
+        public abstract double getBonificacao();
+
+        public abstract void aumentarSalario();
     }
 }
