@@ -1,17 +1,26 @@
 ﻿using System;
 using checkBank_ADM.Funcionarios;
-using checkBank_ADM.Utils;
+using checkBank_ADM.SistemaInterno;
+using checkBank_ADM.Utilitario;
 
-CalcularBonificacao();
+SistemaInterno gerenciador = new SistemaInterno();
 
-void CalcularBonificacao()
+// Designer mateus = new Designer("123.456.789-96");
+// mateus.Nome = "Mateus";
+
+// gerenciador.Registrar(mateus);
+
+// System.Console.WriteLine("Total de bonificação do funcionario " + mateus.Nome + ": " + gerenciador.getBonificacao());
+
+UsarSistema();
+
+void UsarSistema()
 {
-    GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
-
-    Designer mateus = new Designer("123.456.789-96");
+    SistemaInterno sistemaInterno = new SistemaInterno();
+    Diretor mateus = new Diretor("159.753.398-04");
     mateus.Nome = "Mateus";
+    mateus.Senha = "123";
 
-    gerenciador.Registrar(mateus);
+    sistemaInterno.Logar(mateus, "123");
 
-    System.Console.WriteLine("Total de bonificação do funcionario " + mateus.Nome + ": " + gerenciador.getBonificacao());
 }

@@ -6,20 +6,21 @@ using System.Threading.Tasks;
 
 namespace checkBank_ADM.Funcionarios
 {
-    public class Diretor : Funcionario
+    public class Diretor : FuncionarioAutenticavel
     {
-        public Diretor(string cpf) : base(cpf, 5000)
+        public Diretor(string cpf) : base(5000, cpf)
         {
-            System.Console.WriteLine("Criando o diretor");
-        }
-        public override double getBonificacao()
-        {
-            return Salario;
+            Console.WriteLine("Criando DIRETOR");
         }
 
-        public override void aumentarSalario()
+        public override void AumentarSalario()
         {
             this.Salario *= 1.15;
+        }
+
+        public override double GetBonificacao()
+        {
+            return this.Salario * 0.5;
         }
     }
 }

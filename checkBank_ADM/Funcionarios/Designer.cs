@@ -8,18 +8,18 @@ namespace checkBank_ADM.Funcionarios
 {
     public class Designer : Funcionario
     {
-        public Designer(string cpf) : base(cpf, 3000)
+        public Designer(string cpf) : base(3000, cpf)
         {
-            System.Console.WriteLine("Criando designer");
-        }
-        public override double getBonificacao()
-        {
-            return Salario *= 0.17;
         }
 
-        public override void aumentarSalario()
+        public override void AumentarSalario()
         {
-            Salario *= 1.11;
+            this.Salario *= 1.11;
+        }
+
+        public override double GetBonificacao()
+        {
+            return this.Salario * 0.17;
         }
     }
 }
